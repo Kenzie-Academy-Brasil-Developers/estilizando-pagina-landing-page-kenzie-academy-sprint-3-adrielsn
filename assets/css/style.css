@@ -95,7 +95,7 @@ main{}
 
 /* EXTRAS */
 /* Início da Seção Calendário */
-/* body .inicial .secaoCalendar{
+body .inicial .secaoCalendar{
     margin: auto;
     max-width: 270px;
     text-align: center;
@@ -179,7 +179,7 @@ body .inicial .secaoCalendar .calendario li .calendario-data-rodape button{
     color: #FFFFFF;
     background-color: #007aff;
     font-size: 32px;
-} */
+}
 
 /* Início da Seção Contato */
 body .inicial .secaoContato{
