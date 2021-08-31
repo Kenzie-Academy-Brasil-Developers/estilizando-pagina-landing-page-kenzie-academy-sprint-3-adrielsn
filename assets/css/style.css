@@ -36,7 +36,7 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     list-style: none;
 }
 img{
@@ -63,7 +63,7 @@ div.container{
 /* GERAL */
   
 /* HTML */
-html{}
+html{scroll-behavior: smooth;}
 /* HTML */
   
 /* BODY */
@@ -94,10 +94,233 @@ main{}
 ::-webkit-resizer{}
 
 /* EXTRAS */
-  
+/* Início da Seção Calendário */
+/* body .inicial .secaoCalendar{
+    margin: auto;
+    max-width: 270px;
+    text-align: center;
+}
 
+body .inicial .secaoCalendar h2{
+    color: #303030;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+}
+
+body .inicial .secaoCalendar p{
+    color: #303030;
+    font-size: 19px;
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+body .inicial .secaoCalendar .calendario{
+    margin: 60px auto;
+}
+
+body .inicial .secaoCalendar .calendario li{
+    border: 1px solid #00043e;
+    margin-bottom: 60px;
+    display: block;
+}
+
+body .inicial .secaoCalendar .calendario li .calendario-data{
+    background-color: #00043e;
+    color: #FFF;
+    display: inline-flex;
+    
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 36px;
+    font-weight: 400;
+}
+
+body .inicial .secaoCalendar .calendario li h3{
+    color: #303030;
+    font-size: 19px;
+    margin: 20px auto;
+}
+
+body .inicial .secaoCalendar .calendario li p{
+    color: #818181;
+    font-size: 15px;
+    line-height: 30px;
+    
+    border-bottom: 1px solid #e6e6e6;
+    padding: 0px 35px 50px;
+}
+
+body .inicial .secaoCalendar .calendario li .calendario-data-rodape{
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+body .inicial .secaoCalendar .calendario li .calendario-data-rodape span{
+    color: #818181;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+body .inicial .secaoCalendar .calendario li .calendario-data-rodape button{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+    height: 50px;
+    width: 75%;
+    margin: auto;
+
+    color: #FFFFFF;
+    background-color: #007aff;
+    font-size: 32px;
+} */
+
+/* Início da Seção Contato */
+body .inicial .secaoContato{
+    height: 750px;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+body .inicial .secaoContato .flex{
+    display: flex;
+    flex-direction: column;
+    
+    height: 100%;
+    width: 75%;
+    
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+body .inicial .secaoContato .flex .flex-col{
+    color: #818181;
+    font-size: 15px;
+}
+
+/* Primeiro Bloco */
+body .inicial .secaoContato .flex .flex-col .secaoContato-informacoes{
+    line-height: 40px;
+}
+
+body .inicial .secaoContato .flex .flex-col .secaoContato-informacoes p{
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+body .inicial .secaoContato .flex .flex-col .secaoContato-informacoes ul li .fas{
+    margin-right: 5px;
+}
+
+body .inicial .secaoContato .flex .flex-col .secaoContato-informacoes ul li a{
+    text-decoration: none;
+    color: #818181;
+}
+
+/* Segundo Bloco */
+body .inicial .secaoContato .flex .flex-col h2{
+    color: #303030;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    position: relative;
+    top: -65%; left: 50%;
+    transform: translateX(-25%);
+}
+
+/* Formulário */
+body .inicial .secaoContato .flex .flex-col form{
+    text-align: end;
+}
+body .inicial .secaoContato .flex .flex-col form .form-input-model label{
+    display: none;
+}
+
+body .inicial .secaoContato .flex .flex-col form .form-input-model input{
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+
+    border: 1px solid #c7c7c7;
+    outline: 1px solid #e7e7e7;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+input::placeholder{
+    color: #818181;
+    font-size: 15px;
+}
+
+body .inicial .secaoContato .flex .flex-col form .form-input-model textarea{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+
+    border: 1px solid #c7c7c7;
+    outline: 1px solid #e7e7e7;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+
+textarea::placeholder{
+    color: #818181;
+    font-size: 15px;
+}
+
+
+/* Botão Submit */
+body .inicial .secaoContato .flex .flex-col form input{
+    height: 40px;
+    width: 70px;
+
+    font-size: 15px;
+    font-weight: 400;
+
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    outline: none;
+}
+
+/* Footer */
+body footer{
+    background-color: #F3F3F3;
+    text-align: center;
+}
+
+body footer p{
+    color: #303030;
+}
+
+body footer .top-button{
+    
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: #FFF;
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+body footer p a{
+    text-decoration: none;
+    color: #007aff;
+}
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
+    @media screen and (max-width: 400px) {}
   
     @media screen and (min-width: 800px) {}
 /* MEDIA QUERIES */
