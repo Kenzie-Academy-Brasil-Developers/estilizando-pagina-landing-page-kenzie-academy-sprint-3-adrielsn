@@ -7,12 +7,9 @@
   <link rel="shortcut icon" href="icon-96x96.webp">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Landing Page Kenzie Academy</title>
-
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/8293e4f16d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <a name="top"></a>
+  
   <!-- CABEÇALHO -->
   <header class="topo">
 
@@ -24,7 +21,7 @@
       </figure>
 
       <!-- MENU DE NAVEGAÇÃO -->
-      <nav>       
+      <nav>
         <ul>
           <li><a href="#1">Sobre a Kenzie</a></li>
           <li><a href="#2">Agenda</a></li>
@@ -92,7 +89,7 @@
 
         <!-- COLUNA DIREITA -->
         <div class="flex-col">
-          
+
             <h2> LOREM IPSUM DOLOR SIT JAVASCRIPT</h2>
             <ul>
                 <li>The standard Lorem Ipsum passage, used since the 1500s</li>
@@ -101,7 +98,7 @@
                 <li>Section 1.10.33 of "de Finibus Bonorum et Malorum", by Cicero in 45 BC</li>
                 <li>1914 translation by H. Rackham</li>
             </ul>
-          
+
         </div>
 
         
@@ -217,9 +214,9 @@
             <p>Contact us and we'll get back to you within 24 hours.</p>
             
             <ul>
-              <li><i class="fas fa-map-marker"></i><a href="#">Chicago, US</a> </li>
-              <li><i class="fas fa-mobile-alt"></i><a href="tel:001515151515">+00 1515151515</a></li>
-              <li><i class="fas fa-envelope-open-text"></i><a href="malito:myemail@something.com">myemail@something.com</a></li>
+              <li><a href="#">Chicago, US</a> </li>
+              <li><a href="tel:001515151515">+00 1515151515</a></li>
+              <li><a href="malito:myemail@something.com">myemail@something.com</a></li>
             </ul>
 
           </div>
@@ -245,7 +242,7 @@
 
             <div class="form-input-model">
               <label for="mensagem">E-mail</label>
-              <textarea name="mensagem" id="mensagem" placeholder="Comment"></textarea>
+              <textarea name="mensagem" id="mensagem"></textarea>
             </div>
 
             <input type="submit" value="Send">
@@ -261,7 +258,6 @@
   </main>
 
   <footer>
-    <p class="top-button"><a href="#top">^</a></p>
     <p>Kenzie Academy - <a href="kenzie.com.br">kenzie.com.br</a></p>
   </footer>
 
